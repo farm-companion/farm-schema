@@ -1,0 +1,17 @@
+{
+  "name": "farm-schema",
+  "version": "1.0.0",
+  "description": "This is the base template for all Farm Companion repos (PuredgeOS 3.0).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node tools/validate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

@@ -1,0 +1,361 @@
+[
+  {
+    "id": "farm_sscmd96ym4",
+    "name": "Tregonna Farm Shop",
+    "slug": "tregonna-farm-shop",
+    "location": {
+      "lat": 50.515,
+      "lng": -4.94,
+      "address": "B3314, Wadebridge, Cornwall",
+      "county": "Cornwall",
+      "postcode": "PL27 6HJ"
+    },
+    "contact": {
+      "website": "https://example-farms.co.uk/tregonna",
+      "email": "hello@tregonna.example",
+      "phone": "+44 1208 000000"
+    },
+    "hours": [
+      {
+        "day": "Mon",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Tue",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Wed",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Thu",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Fri",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Sat",
+        "open": "09:00",
+        "close": "16:00"
+      }
+    ],
+    "offerings": [
+      "Organic veg",
+      "Dairy",
+      "Bakery"
+    ],
+    "story": "Family-run Cornish farm with seasonal veg and fresh dairy.",
+    "images": [
+      "https://picsum.photos/id/1011/800/600"
+    ],
+    "verified": true,
+    "verification": {
+      "method": "public_sources",
+      "timestamp": "2025-08-16T09:00:00Z"
+    },
+    "seasonal": [
+      {
+        "month": 5,
+        "produce": [
+          "Strawberries",
+          "Asparagus"
+        ]
+      },
+      {
+        "month": 8,
+        "produce": [
+          "Tomatoes",
+          "Sweetcorn"
+        ]
+      }
+    ],
+    "adsenseEligible": true,
+    "updatedAt": "2025-08-16T09:00:00Z"
+  },
+  {
+    "id": "farm_0ja81wm8y4",
+    "name": "Dales Meadow Farm Shop",
+    "slug": "dales-meadow-farm-shop",
+    "location": {
+      "lat": 54.278,
+      "lng": -2.01,
+      "address": "A684, Wensleydale, North Yorkshire",
+      "county": "North Yorkshire",
+      "postcode": "DL8 3AB"
+    },
+    "contact": {
+      "website": "https://example-farms.co.uk/dales-meadow",
+      "email": "info@dales-meadow.example",
+      "phone": "+44 1969 000000"
+    },
+    "hours": [
+      {
+        "day": "Fri",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Sat",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Sun",
+        "open": "10:00",
+        "close": "16:00"
+      }
+    ],
+    "offerings": [
+      "Cheese",
+      "Butchery",
+      "Honey"
+    ],
+    "story": "Artisan cheeses and grass-fed meats from the Dales.",
+    "images": [
+      "https://picsum.photos/id/1021/800/600"
+    ],
+    "verified": true,
+    "verification": {
+      "method": "owner_claim",
+      "timestamp": "2025-08-16T09:10:00Z"
+    },
+    "seasonal": [
+      {
+        "month": 9,
+        "produce": [
+          "Apples",
+          "Pears"
+        ]
+      },
+      {
+        "month": 10,
+        "produce": [
+          "Pumpkins",
+          "Mushrooms"
+        ]
+      }
+    ],
+    "adsenseEligible": true,
+    "updatedAt": "2025-08-16T09:10:00Z"
+  },
+  {
+    "id": "farm_xftmqfntkw",
+    "name": "Wealden Orchard Shop",
+    "slug": "wealden-orchard-shop",
+    "location": {
+      "lat": 51.169,
+      "lng": 0.525,
+      "address": "A229, Cranbrook, Kent",
+      "county": "Kent",
+      "postcode": "TN17 3AB"
+    },
+    "contact": {
+      "website": "https://example-farms.co.uk/wealden-orchard",
+      "email": "hi@wealden-orchard.example",
+      "phone": "+44 1580 000000"
+    },
+    "hours": [
+      {
+        "day": "Wed",
+        "open": "10:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Thu",
+        "open": "10:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Fri",
+        "open": "10:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Sat",
+        "open": "09:00",
+        "close": "17:00"
+      }
+    ],
+    "offerings": [
+      "Cider",
+      "Apples",
+      "Jams"
+    ],
+    "story": "Orchard-side shop showcasing Kentish apples and small-batch cider.",
+    "images": [
+      "https://picsum.photos/id/1031/800/600"
+    ],
+    "verified": false,
+    "verification": {
+      "method": "crawl_verified",
+      "timestamp": "2025-08-16T09:20:00Z"
+    },
+    "seasonal": [
+      {
+        "month": 9,
+        "produce": [
+          "Apples"
+        ]
+      },
+      {
+        "month": 10,
+        "produce": [
+          "Pears",
+          "Pumpkins"
+        ]
+      }
+    ],
+    "adsenseEligible": true,
+    "updatedAt": "2025-08-16T09:20:00Z"
+  },
+  {
+    "id": "farm_6z3pxtk6jn",
+    "name": "Lochside Croft Shop",
+    "slug": "lochside-croft-shop",
+    "location": {
+      "lat": 57.485,
+      "lng": -4.225,
+      "address": "B851, near Inverness, Highlands",
+      "county": "Highland",
+      "postcode": "IV2 6AB"
+    },
+    "contact": {
+      "website": "https://example-farms.co.uk/lochside-croft",
+      "email": "shop@lochside-croft.example",
+      "phone": "+44 1463 000000"
+    },
+    "hours": [
+      {
+        "day": "Thu",
+        "open": "10:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Fri",
+        "open": "10:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Sat",
+        "open": "10:00",
+        "close": "16:00"
+      }
+    ],
+    "offerings": [
+      "Venison",
+      "Oats",
+      "Preserves"
+    ],
+    "story": "Small croft shop with Highland venison and oat products.",
+    "images": [
+      "https://picsum.photos/id/1041/800/600"
+    ],
+    "verified": false,
+    "verification": {
+      "method": "public_sources",
+      "timestamp": "2025-08-16T09:30:00Z"
+    },
+    "seasonal": [
+      {
+        "month": 11,
+        "produce": [
+          "Venison",
+          "Cabbage"
+        ]
+      },
+      {
+        "month": 12,
+        "produce": [
+          "Brussels sprouts",
+          "Parsnips"
+        ]
+      }
+    ],
+    "adsenseEligible": true,
+    "updatedAt": "2025-08-16T09:30:00Z"
+  },
+  {
+    "id": "farm_xjlskfsxi2",
+    "name": "Vale Farm Shop",
+    "slug": "vale-farm-shop",
+    "location": {
+      "lat": 51.459,
+      "lng": -3.448,
+      "address": "A48, Vale of Glamorgan, Wales",
+      "county": "Vale of Glamorgan",
+      "postcode": "CF71 7AB"
+    },
+    "contact": {
+      "website": "https://example-farms.co.uk/vale-farm",
+      "email": "info@vale-farm.example",
+      "phone": "+44 1446 000000"
+    },
+    "hours": [
+      {
+        "day": "Tue",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Wed",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Thu",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Fri",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Sat",
+        "open": "09:00",
+        "close": "16:00"
+      }
+    ],
+    "offerings": [
+      "Lamb",
+      "Cheese",
+      "Seasonal veg"
+    ],
+    "story": "Community-focused Welsh farm shop with lamb and artisan cheeses.",
+    "images": [
+      "https://picsum.photos/id/1051/800/600"
+    ],
+    "verified": true,
+    "verification": {
+      "method": "owner_claim",
+      "timestamp": "2025-08-16T09:40:00Z"
+    },
+    "seasonal": [
+      {
+        "month": 4,
+        "produce": [
+          "Lamb",
+          "Radishes"
+        ]
+      },
+      {
+        "month": 7,
+        "produce": [
+          "Tomatoes",
+          "Cucumbers"
+        ]
+      }
+    ],
+    "adsenseEligible": true,
+    "updatedAt": "2025-08-16T09:40:00Z"
+  }
+]

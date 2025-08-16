@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "farm_schema.v1.json",
+  "title": "FarmShop",
+  "type": "object",
+  "required": ["id", "name", "location", "slug", "verified", "updatedAt"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^farm_[a-z0-9]{10}$" },
+    "name": { "type": "string", "minLength": 2, "maxLength": 120 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "location": {
+      "type": "object",
+      "required": ["lat", "lng", "address", "county", "postcode"],
+      "properties": {
+        "lat": { "type": "number", "minimum": 49, "maximum": 61 },
+        "lng": { "type": "number", "minimum": -8, "maximum": 2 },
+        "address": { "type": "string", "minLength": 5 },
+        "county": { "type": "string" },
+        "postcode": { "type": "string" }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "website": { "type": "string", "format": "uri" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" }
+      }
+    },
+    "hours": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "day": { "type": "string", "enum": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] },
+          "open": { "type": "string", "pattern": "^\\d{2}:\\d{2}$" },
+          "close": { "type": "string", "pattern": "^\\d{2}:\\d{2}$" }
+        }
+      }
+    },
+    "offerings": { "type": "array", "items": { "type": "string" } },
+    "story": { "type": "string", "maxLength": 1200 },
+    "images": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "verified": { "type": "boolean" },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "method": { "type": "string", "enum": ["owner_claim", "public_sources", "crawl_verified"] },
+        "timestamp": { "type": "string", "format": "date-time" }
+      }
+    },
+    "seasonal": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+          "produce": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "adsenseEligible": { "type": "boolean", "default": true },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}
